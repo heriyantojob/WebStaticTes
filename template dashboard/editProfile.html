@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="css/OverlayScrollbars.min.css"> -->
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/roundslider.min.css">
+   
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/roundslider.min.js"></script>
+    <!-- <script src="js/OverlayScrollbars.min.js"></script>
+    <script src="js/jquery.overlayScrollbars.min.js"></script> -->
+    <script src="js/template.js"></script>
+    <script src="js/home.js"></script>
+
+
+    <style>
+            
+          
+            #ipk-percent{
+                margin : 0 auto;
+            }
+            #ipk-percent .rs-range-color  {
+                background-color: #00FFF5;
+            }
+            #ipk-percent .rs-path-color  {
+                background-color: #382d5f;
+                border-radius: 0;
+            }
+            #ipk-percent .rs-handle  {
+                background-color: #00FFF5;
+            }
+            #ipk-percent .rs-border  {
+                border: 3px solid #382d5f;
+            }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- header top -->
+        <div class="header-top clearfix">
+           <div class="header-top-logo">
+               <img src="img/logo.png">
+
+           </div>
+        </div>
+        <!-- navigation menu -->
+        <nav class="nav-header clearfix">
+            <div class="nav-left clearfix">
+                <div class="nav-list" id="menu-tooggle">
+                    <div class="nav-list-content" >
+                        <i class="fas fa-bars"></i> menu
+                    </div>
+                    <div class="nav-sub">
+                            <div id="nav-menu" class="nav-menu">
+                                    <ul>
+                                        <li>
+                                            <!-- <div class="nav-menu-content">
+                                                    <a href='#'>Home</a>
+                                            </div> -->
+                                            <div class="nav-menu-content">
+                                                    <a href='#'>menu</a>
+                                            </div>
+                                           
+                                            <ul class="nav-menu-sub">
+                                                <li><a href='#'>menu 1</a></li>
+                                                <li><a href='#'>menu 2</a></li>     
+                                                <li><a href='#'>menu 3</a></li>
+                                                    
+                                            </ul>
+                                           
+                                            
+                                        </li>
+                        
+                                        <li>
+                                            <div class="nav-menu-content">
+                                                <a href='#'>Lihat Kelas</a>
+                                            </div>          
+                                        </li>
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Daftar Ulang</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Pembatalan Daftar</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>KRS Online</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Pengembalian M. Kuliah</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Jadwal Kuliah</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Jadwal Ujian</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Jadwal Pembersihan</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Pengajuan Skripsi</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Pengajuan Semester Pendek</a>
+                                                </div>          
+                                        </li>
+
+                                        <li>
+                                                <div class="nav-menu-content">
+                                                    <a href='#'>Kalender Akademik</a>
+                                                </div>          
+                                        </li>
+                                    </ul>
+                                </div>
+                    </div> 
+
+                   
+                      
+                </div>   
+          
+            </div>
+            <div class="nav-right clearfix">
+              
+
+                <div class="nav-list">
+                    <div class="nav-list-content">
+                        <i class="fas fa-bell"></i> 
+                        
+                    </div>
+                    <div class="nav-sub">
+                        <div class="nav-sub-box  nav-sub-box-notif" >
+                            Notifikasi
+
+                            <a href="#"
+                                class="btn btn-primary btn-block">
+                                Lihat semua
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                 
+             
+
+                <div class="nav-list">
+                    <div class="nav-list-content">
+                        Heriyanto
+                        <img src="img/foto.jpeg"/>
+                         
+                        <i class="fas fa-chevron-down"></i>
+                    </div> 
+                    <div class="nav-sub">
+                        <div class="nav-sub-box  nav-sub-box-profile" >
+                            <img src="img/foto.jpeg">
+                            <a href="#"
+                            class="btn btn-primary btn-block">
+                                Akun
+                            </a>
+                            <a href="#"
+                                class="btn btn-danger btn-block">
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        
+
+        </nav>
+    </header>
+
+
+    <div class="nav-slide-container">
+        <div class="nav-slide">
+    
+            <a href="#">
+                Jadwal Kuliah
+            </a>
+            <a href="#">
+                Jadawal Ujian
+            </a>
+            <a href="#">
+                Absensi
+            </a>
+    
+            <a href="#">
+                Nilai
+            </a>
+            <a href="#">
+                Kuisonare
+            </a>
+            <a href="#">
+                Contact Us
+            </a>
+    
+            
+    
+        
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-card">
+
+            <div class="row">
+                    <div class="col-sm-12">
+                        
+                            <h3>
+                                Biodata
+                            </h3> 
+        
+                            <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                <label for="inputNim">Nim</label>
+                                <input type="text" class="form-control" id="inputNim" placeholder="Nim"
+                                    readonly/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                <label for="inputNama">Nama</label>
+                                <input type="text" class="form-control" id="inputNama" placeholder="Nama">
+                                </div>
+        
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="text" class="form-control" id="inputEmail" 
+                                        placeholder="Email"/>
+                                    </div>
+                            </div>
+        
+                            
+        
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail">Jenis Kelamin</label>
+                                    <select id="inputJK" class="form-control">
+                                        <option selected>Masukkan Jenis Kelamin</option>
+                                        <option>Laki-laki</option>
+                                        <option>Perempuan</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputAnakKe">Anak ke</label>
+                                    <input type="number" class="form-control" id="inputAnakKe" 
+                                    placeholder="anak ke"/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputSaudara">dari</label>
+                                    <input type="number" class="form-control" id="inputSaudara" 
+                                        placeholder="Jumlah Saudara"/>
+                                    </div>
+                            </div>
+                            
+        
+        
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputAgama">Agama</label>
+                                    <select id="inputAgama" class="form-control">
+                                        <option selected>Masukkan Agama</option>
+                                        <option>Buddha</option>
+                                        <option>hindu</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputNoHP">No telp</label>
+                                    <input type="number" class="form-control" id="inputNoHP" 
+                                    placeholder="No telp/hp"/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputSaudara">Asal Sekolah</label>
+                                    <input type="text" class="form-control" id="inputAsal" 
+                                        placeholder="Asal Sekolah"/>
+                                    </div>
+                            </div>
+
+                            <div class="form-row">
+                                    <div class="form-group col-md-3">
+                                        <label for="inputAgama">Tempat Lahir</label>
+                                        <select id="inputAgama" class="form-control">
+                                            <option selected>Tempat Lahir</option>
+                                            <option>Medan</option>
+                                            <option>Binjai</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputNoHP">Tanggal Lahir</label>
+                                        <input type="number" class="form-control" id="inputNoHP" 
+                                        maxlength="2"
+                                        placeholder="Tanggal"/>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="inputSaudara">Bulan Lahir</label>
+                                        <input type="number" class="form-control" id="inputAsal" 
+                                        maxlength="2"
+                                            placeholder="Bulan"/>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                            <label for="inputSaudara">Tahun Lahir</label>
+                                            <input type="number" class="form-control" id="inputAsal" 
+                                                placeholder="Tahun"/>
+                                    </div>
+                                </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                <label for="inputCity">Kota</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Masukkan Kota</option>
+                                    <option>Medan</option>
+                                </select>
+                                </div>
+                            
+                                <div class="form-group col-md-2">
+                                <label for="inputJenisTinggal">Jenis Tinggal</label>
+                                <select id="inputJenisTinggal" class="form-control">
+                                        <option selected>Masukkan Jenis Tinggal</option>
+                                        <option>Kos</option>
+                                        <option>Bersama orang tua</option>
+                                        <option>Bersama Wali</option>
+                                        <option>Rumah sendiri</option>
+                                        <option>Rumah Sewa</option>
+                                </select>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                
+                                    <div class="form-group col-md-4">
+                                        <label for="inputJurusan">Program Studi</label>
+                                        <input type="text" class="form-control" id="inputJurusan" 
+                                        placeholder="Program Studi" readonly/>
+                                    </div>
+                            </div>
+                            <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                            <label for="inputAlamat">Alamat</label>
+                                
+                                            <textarea class="form-control" id="inputAlamat"></textarea>
+                                    </div>
+                                    
+                            
+                            </div>
+                            <button type="submit" class="btn btn-primary">Simpan</button>
+                               
+                    </div>
+
+                    <div class="col-sm-12">
+                        
+                            <h3>
+                                Data Orang tua
+                            </h3> 
+        
+                     
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputNamaIbu">Nama Ibu</label>
+                                    <input type="text" class="form-control" id="inputNim" placeholder="Nim"
+                                        readonly/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputNama">Nama Bapak</label>
+                                    <input type="text" class="form-control" id="inputNama" placeholder="Nama">
+                                </div>
+        
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail">No Hp</label>
+                                    <input type="text" class="form-control" id="inputEmail" 
+                                        placeholder="Email"/>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="inputNamaIbu">Pekerjaan</label>
+                                        <input type="text" class="form-control" id="inputNim" placeholder="Nim"
+                                            />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputNama">Email</label>
+                                        <input type="text" class="form-control" id="inputNama" placeholder="Nama">
+                                    </div>
+            
+                                    <div class="form-group col-md-4">
+                                        <label for="inputEmail">Pendidikan Terakhir</label>
+                                        <input type="text" class="form-control" id="inputEmail" 
+                                            placeholder="Email"/>
+                                    </div>
+                            </div>
+
+                            <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="inputNamaIbu">Kelurahan</label>
+                                        <input type="text" class="form-control" id="inputNim" placeholder="Nim"
+                                            />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputNama">Kecamatan</label>
+                                        <input type="text" class="form-control" id="inputNama" placeholder="Nama">
+                                    </div>
+            
+                                   
+                            </div>
+
+                            <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                            <label for="inputAlamat">Alamat</label>
+                                
+                                            <textarea class="form-control" id="inputAlamat"></textarea>
+                                    </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                          
+                    </div>
+
+                    <div class="col-sm-12">
+                        
+                            <h3>
+                                Data Wali
+                            </h3> 
+        
+                     
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="inputNamaIbu">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="inputNim" placeholder="Nama Lengkap"
+                                        />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputNama">No Hp</label>
+                                    <input type="text" class="form-control" id="inputNama" placeholder="No Hp">
+                                </div>
+        
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="text" class="form-control" id="inputEmail" 
+                                        placeholder="Email"/>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                            <label for="inputAlamat">Alamat</label>
+                                
+                                            <textarea class="form-control" id="inputAlamat"></textarea>
+                                    </div>
+                                    
+                            
+                            </div>
+        
+                           
+
+                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                          
+                    </div>
+                
+                    
+            </div>
+
+            <div class="row">
+                   
+        
+                
+                    
+            </div>
+        </div>
+        
+   
+    </div>
+    <footer class="footer">
+            footer
+    </footer>
+   
+
+    <!-- announcement model -->
+    <div class="modal fade" id="modal-announce" >
+        <div class="modal-dialog modal-dialog-centered modal-lg" >
+            <div class="modal-content" >
+            
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Announcement</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                        PENGUMUMAN TAHAP 1 WISUDA 58
+                        <br/>
+                        <br/>
+
+                        Yth. Bapak/Ibu Mahasiswa Binus Graduate Program 
+                        <br/>
+                        <br/>
+                        
+                        
+                        Bagi Bapak/Ibu Yang telah di nyatakan Layak Wisuda 58, Berikut ini kami lampirkan pengumuman Tahap 1 untuk Wisuda 58 1 Agustus 2018. 
+                        <br/>
+                        <br/>
+                        
+                        
+                        Demikian kami sampaikan, Atas perhatiannya kami ucapkan Terima kasih. 
+                        
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nihil veniam harum consectetur velit, tempore ad. Dolore vel ad non deserunt error, animi praesentium minus sequi dicta delectus fugit ratione.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates accusamus natus perspiciatis commodi vel at deleniti accusantium, eaque quaerat dolorem, iure non eos rem doloremque, saepe itaque cupiditate quis.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis et nisi dolorum est vero fugit aliquid magni error. Ipsa quibusdam quod facere earum velit magni ullam, officia quisquam iste.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quod ut, commodi necessitatibus maxime ipsum vero nostrum provident, facere eligendi, alias praesentium cumque consequuntur libero sed delectus neque. Ipsa, iste.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ducimus ullam impedit alias! Sit iusto voluptas, delectus rem quos cupiditate perferendis esse molestias est quisquam deleniti? Accusantium fugit enim aliquid.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus illo, ex, cum facilis cupiditate quos alias maxime doloremque quod reiciendis consequuntur? Nihil quod necessitatibus commodi laudantium a! Modi, eos.
+                        <br/>
+                        <br/>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ad iste similique consequatur nam officiis, harum qui minima distinctio ipsum molestiae nisi consectetur placeat hic praesentium quo magni temporibus atque!
+                        <br/>
+                        <br/>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste libero accusantium velit quibusdam id dicta quis, asperiores nulla obcaecati pariatur nam quos at quaerat, natus fuga maxime est laboriosam aperiam.
+                        <br/>
+                        <br/>
+                        Regards,
+                        <br/>
+                        <br/>
+                        BGP Office
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                 
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+
+                            <li class="page-item" data-dismiss="modal">
+                                    <a class="page-link" href="#">
+                                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                                    </a> 
+                            </li>
+                        </ul>
+                    </nav>
+                   
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
